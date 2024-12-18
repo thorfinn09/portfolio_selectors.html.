@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        h2 {
+            font-size: 24px;
+            text-decoration: underline;
+        }
+
+
+        h3 {
+            font-size: 20px;
+            color: darkgreen;
+        }
+
+        p {
+            line-height: 1.5;
+            font-size: 16px;
+        }
+        
+        #Projects h2 {
+            text-align: center; 
+            margin: 0 auto; 
+        }
+
+
+        
+        .project1 {
+            background-color: lightblue;
+            padding: 20px;             
+            margin: 10px;              
+            border: 2px solid darkblue;
+        }
+
+
+        .project2 {
+            background-color: lightgreen;
+            padding: 20px;               
+            margin: 10px;               
+            border: 2px solid darkgreen;
+        }
+
+
+        .project3 {
+            background-color: lightcoral; 
+            padding: 20px;                
+            margin: 10px;                
+            border: 2px solid darkred;   
+        }
+
+    
+        #About {
+            text-align: center;         
+            padding: 20px;             
+        }
+
+
+        #skills {
+            background-color: lightyellow; 
+            padding: 20px;                 
+        }
+
+        #skills li {
+            font-weight: bold;
+        }
+
+        nav ul li {
+            list-style-type: none; 
+            color: darkblue;       
+            display: flex;         
+            display: inline-block;       
+            list-style-type: none;
+            margin-left: 20px;    
+        }
+
+        #projects h3 {
+
+            font-size: 22px;       
+            color: darkblue;       
+            margin-bottom: 15px;   
+        }          
+
+        img[src] {
+            border: 2px solid black;
+            width: 250px;        
+            height: 250px;
+            border-radius: 50%;
+        } 
+           
+        .image-container {
+            display: flex;
+            justify-content: center; 
+            align-items: center;   
+            height: 300px;  
+        }
+
+        .image-container img {
+            max-width: 100%;   
+            height: auto;             
+        }
+
+
+
+        section ul li::after {
+            content:"⭐️"
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#"></a>about</li>
+                <li><a href="#"></a>projects</li>
+                <li><a href="#"></a>skills</li>
+            </ul>
+        </nav>
+        <section id="About">
+            <h2>About Me</h2>
+            <p>i love cats</p>
+            <div class="image-container"><img src="silly cat.jpg" alt="profile picture"></div>
+        </section>
+        <section id="Projects">
+            <h2>My Projects</h2>
+            <div class="project1">
+                <h3>project session 1</h3>
+                <p>its my first prject i was trying make easy html webpage with little text and img in it</p>
+            </div>
+
+            <div class="project2">
+                <h3>project session 3</h3>
+                <p>in this project i was learning css and first time used it</p>
+            </div>
+
+            <div class="project3">
+                <h3>project session 4</h3>
+                <p>session 4 project was about tables i dont like tables >:/</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Problem Solving</li>
+                <li>Communication</li>
+              </ul>
+        </section>
+        <footer>
+            <p>© 2024 My Portfolio</p>
+          </footer>
+          
+    </header>
+</body>
+</html>
